@@ -1,0 +1,220 @@
+body{
+    background-color: blanchedalmond;
+    display: grid;
+    margin: 0;
+}
+.main{
+    width: 1450px;
+    height: 800px;
+    border: 4px solid;
+    margin: 2px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.content{
+    width: 850px;
+    height: 400px;
+}
+.name{
+    font-size: 40px;
+    font-family: fantasy;
+}
+
+
+.im{
+    font-size: 40px;
+    font-family: cursive;
+}
+h1{
+    color: black;
+    font-size: 20px;
+    
+}
+
+h2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: fantasy;
+}
+img{
+    width: 500px;
+    height: 500px;
+    margin-top: 170px;
+}
+
+.h2{
+    margin-left: 650px;
+    margin-top: 80px;
+    color: rgb(237, 162, 63);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.a{
+    display: block;
+    text-decoration: none;
+    margin-left: 700px;
+    width: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+b{
+    color: rgb(244, 174, 83);
+}
+
+.a :hover{
+    cursor: pointer;
+    color: rgb(235, 141, 19);
+    text-transform: uppercase;
+}
+
+.h2 :hover{
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+
+/* Фото, текст вместе */
+@media(max-width: 1380px){
+    .main{
+        width: 1300px;
+        height: 980px;
+    }
+}
+@media(max-width: 890px) {
+    .main{
+        width: 1030px;
+        height: 1100px;
+    }
+}
+@media(max-width: 620px){
+    .main{
+    width: 950px;
+    height: 1100px;
+    }
+}
+
+@media(max-width: 430px){
+    .main{
+        flex-wrap: wrap;
+    }
+}
+/* @media(max-height: 930px){
+    .main{
+        flex-wrap: wrap;
+    }
+} */
+
+
+
+/* Текст общий */
+@media (max-width: 1380px) {
+    .content{
+        width: 700px;
+        height: 300px;
+    }
+}
+@media (max-width: 890px) {
+    .content{
+        width: 500px;
+        height: 200px;
+        margin-left: 120px;
+    }
+}
+@media (max-width: 620px){
+    .content{
+        width: 300px;
+        height: 100px;
+        font-size: 20px;
+    }
+}
+
+
+
+/* NAME */
+@media (max-width: 620px){
+    .name{
+        font-size: 30px;
+    }
+}
+
+
+/* IM */
+@media( max-width: 620px){
+    .im{
+        font-size: 25px;
+        margin-left: 50px;
+    }
+}
+
+
+/* Телефоны */
+@media( max-width: 1380px){
+    .a{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        margin-left: 500px;
+    }
+}
+@media( max-width: 890px){
+    .a{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        margin-left: 250px;
+    }
+}
+@media( max-width: 620px){
+    .a{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        margin-left: 200px;
+    }
+}
+
+
+
+/* Контактные связи */
+@media( max-width: 1380px){
+    .h2{
+        display: block;
+        margin-left: 450px;
+    }
+}
+@media( max-width: 890px){
+    .h2{
+         display: block;
+        margin-left: 200px;
+        font-size: 25px;
+    }
+}
+
+
+
+/* Фото отдельно */
+@media( max-width: 890px){
+    .img{
+        width: 400px;
+        height: 400px;
+        margin-left: 50px;
+    }
+}
+@media( max-width: 890px){
+    .img{
+        width: 300px;
+        height: 350px;
+        margin-left: 20px;
+        margin-top: 150px;
+    }
+}
